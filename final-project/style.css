@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    padding: 14px;
+    justify-content: space-around;
+    color: #DEF7EC;
+    background-color:#84E1BC;
+
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 600;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.hero{
+    background-image: url(./Water\ Bottles\ Resized.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    height: 550px;
+    width: 1260px;
+}
+.text{
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    font-weight: 700;
+    font-size: xx-large
+}
+.iframe{
+    height: 400px;
+    border: solid black 4px;
+}
+.information{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr );   
+    padding: 20px 15px;
+    gap: 16px;
+
+}
+.how{
+    padding: 40px 0px;
+}
+.see{
+    margin-top: 20px;
+    padding: 14px;
+    background-color: #84E1BC;
+    border: none;
+    color: white;
+    font-size: medium;
+
+}
+.see:hover{
+    background-color: #DEF7EC;
+    color: black;
+}
+/* .green{
+    background-image: url(./greenword.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 1260px;
+} */
+.trash{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    border:solid #84E1BC 2px;
+    margin:10px 120px;
+    padding: 4px;
+    
+}
+.img{
+    height: 300px;
+    width: 500px;
+    border-radius: 4px;
+
+}
+.texts{
+    padding: 18px;
+    text-align: center;
+}
+.quality{
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+    color: #84E1BC;
+    
+    font-size: xx-large;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #84E1BC;
+    padding: 10px;
+}
+.Links{
+    padding: 8px;
+}
+.slogal, .creat{
+    color: white;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px 0px;
+}
+.three{
+    height: 160px;
+    width: 450px;
+    border-radius: 4px;
+   
+}
+.one{
+    padding-left: 80px;
+    border-radius: 4px;
+    height: 500px;
+    width: 450px;
+}
+.img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+ol{
+    padding: 10px 24px;
+    line-height: 20px;
+    width: 600px;
+}
+.vedio{
+    padding: 20px ;
+    align-items: center;
+}
+.picture{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    justify-content: space-between;
+    
+}
+img{
+    padding: 0px 20px;
+}
+.more{
+    background-color: #84E1BC;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+    border: none;
+    
+}
+.more:hover{
+    font: bold;
+    background-color: #DEF7EC;
+    color: black;
+}
+.line{
+    position: absolute;
+    z-index: -1;
+    background-color: #84E1BC;
+    width: 1260px;
+
+}
+.ul{
+    padding: 20px;
+}
+.form{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: #DEF7EC;
+    align-items: center;
+    text-align: center;
+}
+.submit{
+    display: flex;
+    background-color: #84E1BC;
+    color: white;
+    align-items: center;
+    text-align: center;
+    border: none;
+    padding: 16px;
+    border-radius: 4px;
+    justify-content: center;
+    margin: 10px;
+    margin-left: 600px;
+}
+.submit:hover{
+    background-color: #DEF7EC;
+    color: black;
+}
+
+
